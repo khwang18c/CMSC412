@@ -1,0 +1,22 @@
+/*
+ * pss.c
+ *
+ *  Created on: Sep 19, 2012
+ *      Author: bradley
+ */
+#include <conio.h>
+#include <geekos/user.h>
+
+int main(){
+
+
+	struct Process_Info ptable[50] = { 0 }; /* Holds the process table */
+	int numProcesses = 10;
+	/* Fills ptable with all of the processes information and returns the number
+	 * of processes entered into the table
+	 */
+
+	numProcesses = PS(ptable, 50);
+	Print("numProcesses: %d\n", numProcesses);
+	return 0;
+}

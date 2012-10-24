@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repos/geekos/!svn/ver/257/network/scripts
+END
+pcat
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/geekos/!svn/ver/257/network/scripts/pcat
+END
+dobuildlib
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/geekos/!svn/ver/257/network/scripts/dobuildlib
+END
+findaddr
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/geekos/!svn/ver/257/network/scripts/findaddr
+END
+kerninfo
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/geekos/!svn/ver/257/network/scripts/kerninfo
+END
+numsecs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/geekos/!svn/ver/257/network/scripts/numsecs
+END
+zerofile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/geekos/!svn/ver/257/network/scripts/zerofile
+END
+mkuprog
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/geekos/!svn/ver/257/network/scripts/mkuprog
+END
+pad
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repos/geekos/!svn/ver/257/network/scripts/pad
+END
+random_port
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/geekos/!svn/ver/257/network/scripts/random_port
+END
+scan
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/geekos/!svn/ver/257/network/scripts/scan
+END
+generrs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/geekos/!svn/ver/257/network/scripts/generrs
+END
+mkcdisk
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/geekos/!svn/ver/257/network/scripts/mkcdisk
+END
+eipToFunction
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/geekos/!svn/ver/257/network/scripts/eipToFunction
+END
+pw
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/repos/geekos/!svn/ver/257/network/scripts/pw
+END

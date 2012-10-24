@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/repos/geekos/!svn/ver/481/network
+END
+LICENSE-klibc
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/repos/geekos/!svn/ver/257/network/LICENSE-klibc
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repos/geekos/!svn/ver/257/network/COPYING
+END
+.submit
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repos/geekos/!svn/ver/448/network/.submit
+END
