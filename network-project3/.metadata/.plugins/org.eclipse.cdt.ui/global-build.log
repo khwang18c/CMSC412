@@ -1,0 +1,9 @@
+
+Invoking autoreconf in build directory: /home/bradley/CMSC412/GEEKOS/network
+
+sh -c "autoreconf -i" 
+sh: 1: autoreconf: not found
+
+Configuration failed with error
+Build stopped
+()
