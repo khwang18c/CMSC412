@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;network/src/geekos/kill.c&apos;" deleteContents="false" description="Delete resource &apos;network/src/geekos/kill.c&apos;" element1="/network/src/geekos/kill.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1348028947190"/>&#x0A;<refactoring comment="Delete resource &apos;network/src/user/pss.c&apos;" deleteContents="false" description="Delete resource &apos;network/src/user/pss.c&apos;" element1="/network/src/user/pss.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1348109151359"/>
-</session>
