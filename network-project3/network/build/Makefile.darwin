@@ -1,0 +1,25 @@
+# -*- Makefile -*-
+
+TARGET_CC_PREFIX := i386-elf-
+TARGET_CC := $(wildcard /opt/local/bin/$(TARGET_CC_PREFIX)gcc-*)
+ifeq ($(TARGET_CC),)
+  $(error no cross compiler found or installed: sudo port install i386-elf-gcc i386-elf-binutils)
+endif
+CC_GENERAL_OPTS := $(GENERAL_OPTS) -Werror 
+QEMU := /Applications/Q.app/Contents/MacOS/i386-softmmu.app/Contents/MacOS/i386-softmmu 
+
+include Makefile.common
+
+# Added to launch qemu from Q package on Mac
+
+run : all
+	$(QEMU) -m 10 -std-vga diskc.img
+
+dbgrun : all
+	echo "target remote localhost:$(RANDOM_PORT)" > .gdbinit
+	$(QEMU) -m 10 -s -S -p $(RANDOM_PORT) -std-vga diskc.img
+
+dbg : all
+	$(TARGET_CC_PREFIX)gdb geekos/kernel.exe
+
+include depend.mak

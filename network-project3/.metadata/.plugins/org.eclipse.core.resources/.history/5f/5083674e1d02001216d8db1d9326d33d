@@ -1,0 +1,30 @@
+/*
+ * kill.c
+ *
+ *  Created on: Sep 19, 2012
+ *      Author: bradley
+ */
+
+#include <conio.h>
+#include <string.h>
+#include <geekos/errno.h>
+#include <process.h>
+
+int main(int argc, char **argv){
+
+	if (argc == 0) {
+		Print("No arguments provided. Need at least 1 pid\n");
+		Exit(-1);
+	}
+
+	int i;
+	int pid;
+	for (i = 0; i < argc; i++) {
+		pid = atoi(argv[i+1]);
+		Print("pid: %d\n", pid);
+	}
+
+
+	return 0;
+}
+

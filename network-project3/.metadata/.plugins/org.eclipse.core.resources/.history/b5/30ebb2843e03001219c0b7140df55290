@@ -1,0 +1,49 @@
+/*
+ * kill.c
+ *
+ *  Created on: Sep 19, 2012
+ *      Author: bradley
+ */
+
+#include <conio.h>
+#include <string.h>
+#include <geekos/errno.h>
+#include <process.h>
+#include <geekos/user.h>
+
+int main(int argc, char **argv){
+	struct Process_Info ptable[20] = {0};
+
+	/* Kill needs at least one PID */
+	if (argc == 1) {
+		Print("No arguments provided. Need at least 1 pid\n");
+		Exit(-1);
+	}
+
+	int i;
+	int pid;
+	int rc;
+	for (i = 1; i < argc; i++) {
+		pid = atoi(argv[i]);
+
+		if (pid == 0){
+			Print("Invalid pid\n");
+			Exit(-1);
+		}
+
+		rc = Kill(pid,0);
+
+		if( rc == EACCESS){
+			Print("Cannot kill kernel process\n");
+			return EACCESS;
+		}
+
+		if (rc < 0 ){
+			Print("Kill for pid %d failed\n", pid);
+			return rc;
+		}
+	}
+
+	return 0;
+}
+
