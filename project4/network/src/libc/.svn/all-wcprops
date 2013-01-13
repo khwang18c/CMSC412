@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/repos/geekos/!svn/ver/472/network/src/libc
+END
+socket.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/geekos/!svn/ver/257/network/src/libc/socket.c
+END
+lowlevel.s
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/geekos/!svn/ver/257/network/src/libc/lowlevel.s
+END
+libuser.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/geekos/!svn/ver/257/network/src/libc/libuser.h
+END
+signal.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/geekos/!svn/ver/257/network/src/libc/signal.c
+END
+process.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/geekos/!svn/ver/445/network/src/libc/process.c
+END
+user.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/geekos/!svn/ver/472/network/src/libc/user.c
+END
+entry.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/geekos/!svn/ver/257/network/src/libc/entry.c
+END
+compat.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/geekos/!svn/ver/257/network/src/libc/compat.c
+END
+sema.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/geekos/!svn/ver/257/network/src/libc/sema.c
+END
+net.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/geekos/!svn/ver/257/network/src/libc/net.c
+END
+sched.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/geekos/!svn/ver/257/network/src/libc/sched.c
+END
+conio.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/geekos/!svn/ver/257/network/src/libc/conio.c
+END
+fileio.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/geekos/!svn/ver/257/network/src/libc/fileio.c
+END

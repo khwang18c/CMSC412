@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/repos/geekos/!svn/ver/465/network/build
+END
+Makefile.linux.x86_64
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/geekos/!svn/ver/444/network/build/Makefile.linux.x86_64
+END
+Makefile.linuxlab
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/geekos/!svn/ver/257/network/build/Makefile.linuxlab
+END
+mux.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/geekos/!svn/ver/290/network/build/mux.rb
+END
+Makefile.linux
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/geekos/!svn/ver/312/network/build/Makefile.linux
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/geekos/!svn/ver/311/network/build/Makefile
+END
+tcp.sh
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/geekos/!svn/ver/257/network/build/tcp.sh
+END
+routing.sh
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/geekos/!svn/ver/257/network/build/routing.sh
+END
+Makefile.darwin
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/geekos/!svn/ver/257/network/build/Makefile.darwin
+END
+.submit
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/repos/geekos/!svn/ver/264/network/build/.submit
+END
+Makefile.common
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/geekos/!svn/ver/465/network/build/Makefile.common
+END
+routing.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/geekos/!svn/ver/257/network/build/routing.txt
+END
+Makefile.submitserver
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/geekos/!svn/ver/305/network/build/Makefile.submitserver
+END

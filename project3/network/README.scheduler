@@ -1,0 +1,54 @@
+/* 
+ * A Readme file describing the goal of my scheduler and
+ * data showing showing its runtime 
+ */
+
+Goal:
+    My scheduling policy essentially uses "multiple priority queues" to
+    determine which thread to run next. I don't explicitly use queues, but
+    I have added in a priority_level variable to the Kernel_Thread struct that
+    keeps track of the current "priority queue" it is in. The threads
+    in the higher priority queue get to run first. In each queue the threads
+    are run in a round robin fashion. If a thread runs for its full quantum, 
+    it is moved to a lower priority queue. If a thread voluntarily gives up the 
+    cpu before it uses its full quantum, it is placed back into priority queue 
+    that it was taken out of.
+
+    My scheduling algorithm allows for processes that haven't yet had access to 
+    the cpu to be run. It also favors short jobs. Processes that are constantly 
+    using the cpu will end up in the lower priority queues. 
+    
+
+Data:
+    I wrote two test programs that run large for loops
+
+    Data using original scheduling policy:
+    
+    Run 1:
+    Time start: 77
+    Time end: 83
+
+    Run 2:
+    Time start: 1196
+    Time end: 1203
+
+    Run 3:
+    Time start: 1492
+    Time end: 1498
+
+    Data using my scheduling policy:
+
+    Run 1:
+    Time start: 45
+    Time end: 52
+
+    Run 2:
+    Time start: 1534 
+    Time end: 1540
+
+    Run 3:
+    Time start: 1549
+    Time end: 1555
+
+    As you can see, my scheduling policy performs at the same speed
+    as the orignial one for user programs.
